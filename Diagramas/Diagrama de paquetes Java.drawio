@@ -1,19 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="Página-1" id="1LwT23fxf6qCDO6G5QeG">
-    <mxGraphModel dx="1154" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="prlGT3GfB34UjrXYrWqU-1" value="InicioMain&lt;br&gt;(InicioAplicacion.java)" style="html=1;whiteSpace=wrap;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="420" y="100" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="prlGT3GfB34UjrXYrWqU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="prlGT3GfB34UjrXYrWqU-2" target="prlGT3GfB34UjrXYrWqU-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="prlGT3GfB34UjrXYrWqU-2" value="Controllers&lt;br&gt;(ControllerUseCase1.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+        <mxCell id="prlGT3GfB34UjrXYrWqU-2" value="Controllers&lt;br&gt;(ControllerUseCase1.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#2877C7;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="350" y="190" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="prlGT3GfB34UjrXYrWqU-3" value="View.UseCases&lt;br&gt;(CrearPersonaView.java, ListarPersonaView.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+        <mxCell id="prlGT3GfB34UjrXYrWqU-3" value="View.UseCases&lt;br&gt;(CrearPersonaView.java, ListarPersonaView.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#2877C7;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="630" y="190" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="prlGT3GfB34UjrXYrWqU-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0;entryDx=150;entryDy=14;entryPerimeter=0;dashed=1;strokeColor=#ff0000;" edge="1" parent="1" source="prlGT3GfB34UjrXYrWqU-1" target="prlGT3GfB34UjrXYrWqU-13">
@@ -22,7 +19,7 @@
             <mxPoint x="160" y="208" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="prlGT3GfB34UjrXYrWqU-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeColor=#ff0000;entryX=0.523;entryY=0.222;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="prlGT3GfB34UjrXYrWqU-1" target="prlGT3GfB34UjrXYrWqU-2">
+        <mxCell id="prlGT3GfB34UjrXYrWqU-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.462;exitY=0.988;exitDx=0;exitDy=0;dashed=1;strokeColor=#ff0000;entryX=0.498;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="prlGT3GfB34UjrXYrWqU-1" target="prlGT3GfB34UjrXYrWqU-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="280" as="sourcePoint" />
             <mxPoint x="570" y="230" as="targetPoint" />
@@ -34,23 +31,35 @@
             <mxPoint x="170" y="213" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="prlGT3GfB34UjrXYrWqU-13" value="Authorizer&lt;br&gt;(Permissions.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+        <mxCell id="prlGT3GfB34UjrXYrWqU-13" value="Authorizer&lt;br&gt;(Permissions.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#2877C7;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="50" y="190" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="prlGT3GfB34UjrXYrWqU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="prlGT3GfB34UjrXYrWqU-14" target="prlGT3GfB34UjrXYrWqU-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="prlGT3GfB34UjrXYrWqU-14" value="InteractorUseCase&lt;br&gt;(CrearPersonaUseCase.java, DefaultUseCaseFactory.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#66B2FF;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="340" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="prlGT3GfB34UjrXYrWqU-14" value="InteractorUseCase&lt;br&gt;(CrearPersonaUseCase.java, DefaultUseCaseFactory.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="300" y="340" width="360" height="70" as="geometry" />
+        <mxCell id="prlGT3GfB34UjrXYrWqU-16" value="Entities&lt;br&gt;(Permisos.java, Persona.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#99CCFF;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="385" y="390" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="prlGT3GfB34UjrXYrWqU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="prlGT3GfB34UjrXYrWqU-16" target="prlGT3GfB34UjrXYrWqU-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="prlGT3GfB34UjrXYrWqU-18" value="DataBase&lt;br&gt;(ConnectDataBase.java, PersonaDAO.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#CCE5FF;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="355" y="500" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="prlGT3GfB34UjrXYrWqU-16" value="Entities&lt;br&gt;(Permisos.java, Persona.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="300" y="490" width="360" height="70" as="geometry" />
+        <mxCell id="prlGT3GfB34UjrXYrWqU-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeColor=#ff0000;exitPerimeter=0;entryX=0.501;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="prlGT3GfB34UjrXYrWqU-2" target="prlGT3GfB34UjrXYrWqU-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="160" as="sourcePoint" />
+            <mxPoint x="480" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="prlGT3GfB34UjrXYrWqU-18" value="DataBase&lt;br&gt;(ConnectDataBase.java, PersonaDAO.java)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="300" y="640" width="360" height="70" as="geometry" />
+        <mxCell id="prlGT3GfB34UjrXYrWqU-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeColor=#ff0000;exitPerimeter=0;entryX=0.5;entryY=0.243;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="prlGT3GfB34UjrXYrWqU-14" target="prlGT3GfB34UjrXYrWqU-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="270" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="prlGT3GfB34UjrXYrWqU-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeColor=#ff0000;exitPerimeter=0;entryX=0.499;entryY=0.243;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="prlGT3GfB34UjrXYrWqU-16" target="prlGT3GfB34UjrXYrWqU-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="517" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
